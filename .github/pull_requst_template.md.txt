@@ -9,16 +9,16 @@
 
 ## 🔄 Type of Change
 <!-- Check all that apply -->
-- [ ] ✨ New feature
+- [X] ✨ New feature
 - [ ] 🐛 Bug fix
-- [ ] 🎨 UI / Form design
+- [X] 🎨 UI / Form design
 - [ ] 🗄️ Database / Supabase change
 - [ ] ♻️ Code refactor
 - [ ] 📝 Documentation update
 
 ## 🖥️ What Forms / Pages Were Changed?
 <!-- Check all that apply -->
-- [ ] 🔐 LoginForm
+- [X] 🔐 LoginForm
 - [ ] 📊 AdminDashboard
 - [ ] 🧑‍💼 ReceptionistDashboard
 - [ ] 🎫 BookingForm
