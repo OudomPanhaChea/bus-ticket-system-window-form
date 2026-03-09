@@ -1,0 +1,67 @@
+# 🎫 Pull Request — Bus Ticket Booking System
+
+## 📋 Description
+<!-- Briefly describe what this PR does -->
+
+## 🔗 Related Issue / Task
+<!-- Link to the task or issue this PR addresses -->
+- Closes #
+
+## 🔄 Type of Change
+<!-- Check all that apply -->
+- [ ] ✨ New feature
+- [ ] 🐛 Bug fix
+- [ ] 🎨 UI / Form design
+- [ ] 🗄️ Database / Supabase change
+- [ ] ♻️ Code refactor
+- [ ] 📝 Documentation update
+
+## 🖥️ What Forms / Pages Were Changed?
+<!-- Check all that apply -->
+- [ ] 🔐 LoginForm
+- [ ] 📊 AdminDashboard
+- [ ] 🧑‍💼 ReceptionistDashboard
+- [ ] 🎫 BookingForm
+- [ ] 📋 ManageTicketsForm
+- [ ] 🛣️ ManageRoutesForm
+- [ ] 🚌 ManageBusesForm
+- [ ] 👥 ManageCustomersForm
+- [ ] 👤 ManageUsersForm
+- [ ] ⚙️ Services / Models / Config
+
+## 🗄️ Database Changes
+<!-- Did you change anything in Supabase? -->
+- [ ] No database changes
+- [ ] Added new table
+- [ ] Modified existing table
+- [ ] Added new query in service
+
+> If yes, describe the change:
+
+## ✅ Testing Checklist
+<!-- Make sure you tested before submitting -->
+- [ ] Tested login as **Admin** role
+- [ ] Tested login as **Receptionist** role
+- [ ] CRUD operations work correctly
+- [ ] No crashes or unhandled exceptions
+- [ ] Role restrictions work (receptionist can't access admin pages)
+- [ ] Supabase data saves and loads correctly
+- [ ] Tested on Windows Forms (not just code review)
+
+## 📸 Screenshots
+<!-- Add screenshots of the form/UI if you changed anything visual -->
+<!-- Drag and drop images here -->
+
+| Before | After |
+|--------|-------|
+| _screenshot_ | _screenshot_ |
+
+## 📝 Notes for Reviewer
+<!-- Anything your teammate should know before reviewing? -->
+
+## 👤 Author Checklist
+- [ ] My code follows the project folder structure (`Models/`, `Services/`, `Forms/`, `Config/`)
+- [ ] I used `public` classes (not `internal`)
+- [ ] I did not commit `Config/AppConfig.cs` (API keys protected)
+- [ ] I tested on the `develop` branch before merging to `main`
+- [ ] I have added meaningful commit messages
