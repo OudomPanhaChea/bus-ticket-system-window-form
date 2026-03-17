@@ -14,7 +14,7 @@ namespace BusTicketSystem
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new ManageTicketsForm());
+            Application.Run(new ManageRoutesForm());
         }
     }
 }
