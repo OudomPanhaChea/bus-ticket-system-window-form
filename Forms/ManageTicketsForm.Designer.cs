@@ -95,6 +95,7 @@
             // txtSearch
             // 
             this.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.txtSearch.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtSearch.Location = new System.Drawing.Point(322, 47);
             this.txtSearch.Multiline = true;
             this.txtSearch.Name = "txtSearch";
@@ -112,9 +113,10 @@
             // cmbStatusFilter
             // 
             this.cmbStatusFilter.DropDownHeight = 200;
-            this.cmbStatusFilter.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cmbStatusFilter.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cmbStatusFilter.FormattingEnabled = true;
-            this.cmbStatusFilter.ItemHeight = 21;
+            this.cmbStatusFilter.IntegralHeight = false;
+            this.cmbStatusFilter.ItemHeight = 17;
             this.cmbStatusFilter.Items.AddRange(new object[] {
             "ALL",
             "CONFIRMED",
@@ -122,7 +124,7 @@
             "PENDING"});
             this.cmbStatusFilter.Location = new System.Drawing.Point(508, 47);
             this.cmbStatusFilter.Name = "cmbStatusFilter";
-            this.cmbStatusFilter.Size = new System.Drawing.Size(120, 29);
+            this.cmbStatusFilter.Size = new System.Drawing.Size(120, 25);
             this.cmbStatusFilter.TabIndex = 8;
             // 
             // label3
