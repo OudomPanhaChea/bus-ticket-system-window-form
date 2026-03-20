@@ -39,12 +39,12 @@
             this.cmbBusType = new System.Windows.Forms.ComboBox();
             this.label5 = new System.Windows.Forms.Label();
             this.dtpDepartureTime = new System.Windows.Forms.DateTimePicker();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.dgvList = new System.Windows.Forms.DataGridView();
             this.btnAddRoute = new System.Windows.Forms.Button();
             this.btnEditRoute = new System.Windows.Forms.Button();
             this.btnDeleteRoute = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvList)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -159,13 +159,13 @@
             this.dtpDepartureTime.Size = new System.Drawing.Size(200, 20);
             this.dtpDepartureTime.TabIndex = 9;
             // 
-            // dataGridView1
+            // dgvList
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 213);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(901, 200);
-            this.dataGridView1.TabIndex = 1;
+            this.dgvList.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvList.Location = new System.Drawing.Point(12, 213);
+            this.dgvList.Name = "dgvList";
+            this.dgvList.Size = new System.Drawing.Size(901, 200);
+            this.dgvList.TabIndex = 1;
             // 
             // btnAddRoute
             // 
@@ -203,14 +203,14 @@
             this.Controls.Add(this.btnDeleteRoute);
             this.Controls.Add(this.btnEditRoute);
             this.Controls.Add(this.btnAddRoute);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.dgvList);
             this.Controls.Add(this.groupBox1);
             this.Name = "ManageRoutesForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ManageRoutesForm";
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dgvList)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -228,7 +228,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox cmbBusType;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView dgvList;
         private System.Windows.Forms.Button btnAddRoute;
         private System.Windows.Forms.Button btnEditRoute;
         private System.Windows.Forms.Button btnDeleteRoute;
